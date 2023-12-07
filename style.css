@@ -1,0 +1,1373 @@
+*,
+*::before,
+*::after{
+margin: 0;
+padding: 0;
+}
+
+html{
+    font-size: 10px;
+        font-family:'SF Pro Display', sans-serif;
+        font-style:normal;
+        font-weight:100;
+        src:local('☺'), url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.woff") format("woff"), url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.ttf") format("truetype");
+        /* (C) 2019 Apple Inc. All rights reserved.
+     */
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: auto;
+    margin: 0;
+    padding: 0 ;
+}
+
+.headerdd{
+    /* position: fixed ;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: rgb(12, 11, 11);
+    backdrop-filter: blur(2.2rem); */
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.container-dd-btn{
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    width: 100%;
+    color: #071b8f;
+}
+
+.dd-content{
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 18px 36px rgba(194, 192, 192, 0.411);
+    height: 0px;
+    transition: height 1s;
+    overflow: hidden;
+}
+
+.headerdd:hover > .dd-content {
+    height: 150px;
+}
+ 
+.dd-content > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    text-decoration-color: #071b8f;
+}
+
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile{
+    display: none;
+}
+
+.nav-link{
+    font-size: 11px;
+    color: #a8a4a4;
+    padding-left:  5rem;
+    transition: opacity .5s;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+
+
+.nav-link-apple{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url(images/apple.png) center no-repeat;
+}
+
+.nav-items55{
+    width: 1.4rem;
+    height: 4.4rem;
+    padding-right: 4rem;
+    justify-content: center;
+}
+
+.nav-items77{
+    width: 1.4rem;
+    height: 4.4rem;
+    padding-right: 7rem;
+}
+
+
+.hero-iphone15-pro{
+ height: 69.2rem;
+ background: url(images/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+ margin-top: 4.4rem;
+ background-size: auto 73.6rem;
+ background-position: center;
+ background-repeat: no-repeat;
+ padding-top: 0px;
+}
+.title-iphone15-pro{
+color: white;
+text-align: center;
+padding-top: 5rem;
+}
+
+.title-heading{
+    font-size: 55px;
+    line-height: 1.07143;
+    letter-spacing: 0.005rem;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.005rem;
+    padding-bottom: 20px;
+}
+
+.title-sub-heading{
+    font-size: 2.20rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+.link{
+    text-align: center;
+}
+.cta{
+    text-align: right;
+    margin-top: 1.8rem;
+}
+
+.cta-link{
+    color: #49a2ec;
+    font-size: 1.70rem;
+display: inline-block;
+padding: 1rem;
+}
+
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+
+
+.hero-iphone15-pro{
+    height: 80.20rem;
+    background: url(images3/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+    margin-top: 1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title-iphone15-pro{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 10rem;
+}
+.hero-iphone15{
+    height:80.20rem;
+    background: url(hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title-iphone15{
+    font-size: 2.20rem;
+    letter-spacing: .008rem;
+  
+    padding-top: 10rem;
+    text-align: center;
+}
+
+
+.title-heading-iphone15{
+    font-size: 55px;
+    line-height: 1.07143;
+    letter-spacing: 0.005rem;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.005rem;
+
+}
+
+.title-sub-heading-iphone15{
+    font-size: 2.20rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.link{
+    text-align: center;
+}
+
+.hero-macbook-pro{
+    height: 69.2rem;
+    background: url(images/macbook.jpg);
+    margin-top: 1rem;
+    padding-top: 5rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title-mackbook-pro{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.title-heading-macbook-pro{
+    font-size: 55px;
+    line-height: 1.07143;
+    letter-spacing: 0.005rem;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.005rem;
+
+}
+
+.title-sub-heading-macbook-pro{
+    font-size: 2.20rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.title-more-items{
+    color: black;
+    text-align: center;
+    padding-top: 8rem;
+    font-size:4.6rem ;
+}
+
+.title-black{
+    color: rgb(255, 255, 255);
+    font-size: 4.6rem;
+    text-align: center;
+    padding-top: 8rem;
+    font-size:4.6rem ;
+}
+.imac{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images/imac.jpg);
+    margin-top: 1.1rem;
+    background-size:73.6rem 73.6rem  ;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.watch{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images/applewatch.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.wonder-awaits{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(holiday_2023_promo__dirvdl6a3r2a_large.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+
+}
+
+.airpods-pro{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images/airpodspro.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.card{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images/card.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.trade-in{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images/tradein.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.more-items{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-rows:auto;
+    column-gap: 1.4rem;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.more-items2{
+    display: flex;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.more-items3{
+    display: flex;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.title-more-items3{
+    color: black;
+    text-align: center;
+    padding-top: 8rem;
+    font-size:4.6rem ;
+}
+
+.title-heading-more-items3{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.title-subheading-more-items3{
+    font-size: 2rem;
+    color: rgb(79, 77, 77);
+}
+
+@media screen and (max-width:1068px){
+    .hero-iphone15-pro{
+        background:url(images2/hero_iphone15pro__i70z9oz3hj2i_small.jpg) center no-repeat;
+        height: 45.2rem;
+    }
+    
+    .hero-iphone15{
+        background: url(images2/hero_iphone15_announce__uuemlcwczn6u_mediumtall.jpg) center no-repeat;
+    }
+    .hero-macbook-pro{
+        background: url(images2/hero_mbp_preorder__caf0s6im2nqq_medium.jpg) center no-repeat;
+    }
+
+    .imac{
+        background: url(images/imac.jpg);
+        width: 69.2rem;
+        height:45.2rem;
+    }
+
+    .wonder-awaits{
+        background: url(images2/holiday_2023_promo__dirvdl6a3r2a_small.jpg);
+        width: 69.2rem;
+        height:45.2rem;
+    }
+
+    .watch{
+        background: url(images/promo_apple_watch_series_9_order__b3u85rm9zf6u_small.jpg);
+        width: 69.2rem;
+        height:45.2rem;
+
+    }
+
+    .airpods-pro{
+        background: url(images/airpodspro.jpg) center no-repeat;
+        width: 69.2rem;
+        height:45.2rem;
+    }
+
+    .card{
+        background: url(images/tile__cauwwcyyn9hy_small.jpg) center no-repeat cover;
+        width: 69.2rem;
+        height:45.2rem;
+        
+        
+    }
+
+    
+    .more-items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .more-items2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .more-items3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ipad-pro-hero{
+        height: 69.2rem;
+        background: url(ipad_pro_hero__bh3eq6sqfjw2_large.jpg);
+
+        }
+}
+
+
+
+
+
+*,
+*::before,
+*::after{
+margin: 0;
+padding: 0;
+}
+
+.nav-items55{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url(search-interface-symbol.png) center no-repeat;
+}
+.headerddd{
+    position: relative;
+    display: inline-block;
+}
+
+.container-dd-btn2{
+    padding: 15px;
+    text-align: center;
+    background: rgb(11, 9, 9);
+    border: none;
+    width: 100%;
+    color: rgb(251, 247, 247);
+    background-position: center;
+}
+
+.dd-content3{
+    position: absolute;
+    width: 100%;
+    box-shadow: white;
+    height: 0px;
+    transition: height 1s;
+    overflow: hidden;
+}
+
+.headerddd:hover > .dd-content3 {
+    height: 150px;
+}
+
+.dd-content3 > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: aliceblue;
+}
+buy{
+    padding-left: 500px;
+}
+
+
+#buy {
+    background-color: #071b8f;
+    color: aliceblue;
+    border-radius: 54px ;
+    padding-left: 20px;
+}
+.ipad-pro-hero{
+    height: 89.2rem;
+    z-index: 1400;
+    background: url(ipad_pro_hero__bh3eq6sqfjw2_medium_2x.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2.2rem);
+}
+    
+    
+    .nav-nav-items123{
+    height: 150px;
+    text-align: center;
+    padding: 50px;
+    background-size: auto 99.6rem;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.98);
+}
+    
+    
+    
+   
+   .nav-nav-items123{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 34 -1rem;
+   }
+   
+
+
+.container23{
+    max-width: auto;
+    margin: 0;
+    padding: 0 ;
+}
+
+
+
+.nav-items-ipad-Pro{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0 -1rem;
+line-height: 1em;
+padding-right: 550px;
+}
+
+.hero-iPad{
+    height: 79.2rem;
+    background: url(ipad_hero__d0tgmaq6shm6_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+   }
+   @keyframes myanimation {
+    from{
+        font-size: 15px;
+        color: #071b8f;
+        background-color: #071b8f;
+   }
+   }
+.ipad-price:hover{
+    background-color: #071b8f;
+    background-clip: calc(blue);
+}
+
+.ipad-price{
+animation-name: myanimation;
+animation-duration: 2s;
+}
+.ipad-price{
+    box-sizing: border-box;
+    background-color: rgba(53, 52, 52, 0.411);
+    background-position: center;
+    padding-top: 10px;
+}
+  
+   .ipad-pro-hero{
+    box-sizing: border-box;
+    color: rgb(245, 240, 240);
+    text-align: center;
+    padding-top: 8rem;
+    font-size:4.6rem ;
+}
+
+
+.title-ipad-pro-hero{
+    text-align: left;
+    text-align: justify;
+    margin-left: 15rem;
+    color: #fff;
+    justify-content: left;
+    padding-right: 13px;
+}
+.link-81{
+    text-align: left;
+    text-align: justify;
+    margin-left: 15rem;
+    color: #fff;
+    justify-content: left;
+    padding-right: 13px;
+}
+.title-heading{ 
+    text-align: left;
+padding-top: 300px;
+
+}
+
+.title-heading-iPad{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding-top: 300px;
+    margin-left: 30rem;
+    
+}
+.title-heading-iPad-3{
+    text-align: left;
+    text-align: justify;
+    margin-left: 15rem;
+    color: #0c0505;
+    justify-content: left;
+    padding-left: 1110px;
+}
+.title-heading-iPad-3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding-top: 100px;
+    margin-right: 20rem;
+}
+
+.title-sub-heading-iPad-3{
+    text-align: left;
+    text-align: justify;
+    margin-left: 15rem;
+    color: #0c0505;
+    justify-content: left;
+    padding-left: 1110px;
+}
+
+.title-sub-heading-iPad-3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding-top: 100px;
+    margin-right: 20rem;
+}
+
+.link-71{
+    text-align: left;
+    text-align: justify;
+    margin-left: 15rem;
+    color: #0c0505;
+    justify-content: left;
+    padding-left: 1110px;
+}
+
+.link-71{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding-top: 30px;
+    margin-right: 10rem;
+}
+
+.hero-iPad-all-52{
+   padding: 20px;
+   align-items: center;
+   align-content: center;
+   text-align: center;
+   font-size: xx-large;
+   margin-top: 2rem;
+   background-size: 0%;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-top: 2;
+   border-bottom: 3cm;
+   image-rendering: crisp-edges;
+    background-color: aliceblue;
+    
+    
+}
+
+
+
+.title-sub-heading-iPad{
+    
+    margin-left: 30rem;
+}
+
+
+.wonder-awaits-23{
+    height: 111.2rem;
+    padding-left: 50%;
+    background: url(images2/banner_ipad__eq61y2rdkniq_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: bottom;
+   }
+
+
+.wonder-awaits91{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 20px solid black;
+}
+   .wonder-awaits91{
+    width: 109.2rem;
+    height:111.2rem;
+    background: url(images2/apple_card_monthly_installments__fhqbbrc4alm6_large.jpg); 
+    margin-bottom: 0%;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #fff;
+}
+
+.ipad-pro-012{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 20px solid black;
+}
+.title-more-items22{   
+color: black;
+    text-align: center;
+    padding-top: 0%;
+    top:0%;
+    font-size:4.6rem ;
+  }
+
+.title-subheading-pad22{
+    color: black;
+    text-align: center;
+    padding-top: 8rem;
+    
+}
+.title-heading-iPad37{   
+text-align: center;
+margin-left: 15rem;
+color: #0c0505;
+justify-content: left;
+padding-left: 500px;
+    }
+.title-heading-iPad37{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-right: 30rem;
+}
+
+.secondaable{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 2rem;
+    background-size: 0%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 2;
+    border-bottom: 3cm;
+    image-rendering: crisp-edges;
+}
+.title-sub-heading-iPad8{   
+    text-align: left;
+    margin-left: 15rem;
+    color: #0c0505;
+    justify-content: left;
+    padding-left: 500px;
+        }
+.title-sub-heading-iPad8{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding-top: 10px;
+    margin-right: 30rem;
+}
+
+.ipad-pro-012{
+    width: 109.2rem;
+    height:111.2rem;
+    background: url(iphone12/trade_in__ejwkdm497no2_large.jpg);
+    margin-bottom: 0%;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #fff;
+    }
+
+.title-heading-airpods-pro33{
+    color: black;
+    text-align: center;
+   background-position: top;
+ 
+}
+
+.title-subheading-airpods-pro33{
+    color: black;
+    text-align: center;
+    padding-left: 1px;
+    font-size:4.6rem ;
+}
+
+.Apple-pencil{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 20px solid black;
+}
+
+.Apple-pencil{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/apple_pencil__ekq506kmmys2_large.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+
+}
+
+.Keyboard-for-ipad{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 20px solid black;
+}
+
+.Keyboard-for-ipad{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/smart_keyboard_folio__b8j0ydqvjq2q_large.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+
+.Apple-pencil2345{
+    height: 79.2rem;
+    background: url(images2/accessories__gdpezee1naai_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+
+   .more-items21{
+    display: flex;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.Apple-ipad-2345{
+    height: 79.2rem;
+    background: url(images2/why_ipad__fyckwbl8w5u2_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+
+.keyboard-ipad{
+    height: 79.2rem;
+    background: url(images2/lp_ipad_hero__ec9vtoqzs0a6_large.png);
+    background: url(images2/fcp_ipad_hero__e663fdl2htea_large.png);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+
+   .iPadOS-17{
+    height: 79.2rem;
+    background: url(images2/ipados17__fbavkgtxnxyu_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+.anima{
+    background-position: fixed;
+    text-decoration: white;
+}
+
+.Animation2{
+    display: flex;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.Animation{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+.Animation1{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+.Animation{
+    width: 70.2rem;
+    height:69.2rem;
+    background-color: #0c0505;
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+
+}
+
+.Animation1{
+    width: 70.2rem;
+    height:69.2rem;
+    background-color: #0c0505;
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+
+
+
+
+
+
+
+.Music{
+    height: 79.2rem;
+    background: url(images2/bundle__ftof8h1r4jiy_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+
+.Apple-tv{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/apple_pay__u03k08osmwy2_medium_2x.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+
+.Apple-music{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/apple_pay__u03k08osmwy2_medium_2x.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Fitness{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/promo_apple_fitness_ipad__bg6qwl7c698i_large.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.Arcade{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/promo_apple_fitness_ipad__bg6qwl7c698i_large.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+
+.News{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/apple_news_plus_tile_x__iki0db8cqw66_large.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.Gift-Card{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/apple_gift_card_tile__cytpkh5opjqu_large.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+
+.Apple-Education{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/ipad_for_education__rvh8drp6mfma_large.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.Apple-at-work{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/ipad_for_business__dg81h7gvgbyq_large.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*::before,
+*::after{
+margin: 0;
+padding: 0;
+}
+
+.nav-items55{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url(search-interface-symbol.png) center no-repeat;
+}
+
+
+.Iphone2S{
+    height: 69.2rem;
+    background: url(images3/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   backdrop-filter: blur(2.2rem) ;
+    
+}
+
+.get-more15{
+    background-image: url(iphone_15_pro_logo__xsnr3zpj28yu_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: xx-large;
+}
+    
+    .Get-more-iphone-15{
+        box-sizing: border-box;
+        width: 100%;
+        height: 2%;
+        padding: 100px;
+        background-size: contain;
+        background-color: black;
+        background-position: center;
+        border: 20px solid black;
+        background-repeat: no-repeat;
+        background-image: url(iphone12/headline_titanium__cj5ay941qj6u_medium.jpg);
+
+    }
+
+.Get-more{
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding: 50px;
+    background-color: rgb(236, 236, 236);
+    
+}
+    
+.Iphone12{
+    height: 69.2rem;
+    background: url(images3/hero_iphone_15__fano21ho6fqu_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   backdrop-filter: blur(2.2rem) ;
+    
+}
+
+.Get-iphone{
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    background-color: rgb(236, 236, 236);
+    
+}
+
+.Iphone{
+    height: 69.2rem;
+    background: url(iphone12/iphone_se_hero__gd586pazxqqa_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+   backdrop-filter: blur(2.2rem) ;
+    
+}
+
+.Iphone15and15pro{
+    height: 119.2rem;
+    background: url(iphone12/guided_tour__c40f88on9o8y_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   backdrop-filter: blur(2.2rem) ;
+    
+}
+
+.hero-iPhone-all{
+    color: rgb(5, 1, 1);
+    text-align: center;
+    padding-top: 8rem;
+    font-size:4.6rem ;
+    background-position: center ;
+}
+
+.wonder-awaits23{
+    height: 79.2rem;
+    background: url(images2/banner_ipad__eq61y2rdkniq_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+
+   .iCloud{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/icloud__czqjzr040qc2_large.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+
+}
+
+.Pay{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/apple_pay__u03k08osmwy2_medium_2x.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.WHYIphone{
+    height: 69.2rem;
+    background: url(iphone12/why_apple__ezn1ktvka6oi_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   backdrop-filter: blur(2.2rem) ;
+    
+}
+
+.WHYIphone1{
+    height: 69.2rem;
+    background: url(iphone12/why_apple__ezn1ktvka6oi_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   backdrop-filter: blur(2.2rem) ;
+    
+}
+
+.WHYIphone2{
+    height: 69.2rem;
+    background: url(iphone12/why_apple__ezn1ktvka6oi_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   backdrop-filter: blur(2.2rem) ;
+    
+}
+
+.WHYIphone3{
+    height: 69.2rem;
+    background: url(iphone12/why_apple__ezn1ktvka6oi_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   backdrop-filter: blur(2.2rem) ;
+    
+}
+
+.iOS-17{
+    height: 69.2rem;
+    background: url(iphone12/ios17__glwsbqdnc6um_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   backdrop-filter: blur(2.2rem) ;
+    
+}
+
+.Apple-tv{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/apple_pay__u03k08osmwy2_medium_2x.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.Apple-music{
+    width: 70.2rem;
+    height:69.2rem;
+    background: url(images2/apple_pay__u03k08osmwy2_medium_2x.jpg);
+    margin-top: 1.1rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .3rem solid #fff;
+}
+
+.Music{
+    height: 79.2rem;
+    background: url(images2/bundle__ftof8h1r4jiy_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+
+
+
+
+
+.Introducing-Apple{
+    height: 69.2rem;
+    background: url(iphone12/why_apple__ezn1ktvka6oi_large.jpg);
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   backdrop-filter: blur(2.2rem) ;
+    
+}
